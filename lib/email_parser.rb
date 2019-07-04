@@ -11,4 +11,5 @@ class EmailParser
   end
   
   def parse
+    csv_emails.collect do |address|
 end
